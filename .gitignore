@@ -1,0 +1,4 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+mujoco-3.16.0/*

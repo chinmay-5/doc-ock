@@ -1,0 +1,16 @@
+[workspace]
+authors = ["Chinmay Srinivas <chinmay1567@gmail.com>"]
+channels = ["conda-forge"]
+name = "doc-ock"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+numpy = ">=2.5.4,<3"
+
+[pypi-dependencies]
+mediapipe = ">=1.1.1, <2"
+opencv-python = ">=5.0.0.93, <6"
