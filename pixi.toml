@@ -1,6 +1,6 @@
 [workspace]
 authors = ["Chinmay Srinivas <chinmay1567@gmail.com>"]
-channels = ["conda-forge"]
+channels = ["robostack-jazzy", "conda-forge"]
 name = "doc-ock"
 platforms = ["win-64"]
 version = "0.1.0"
@@ -10,7 +10,11 @@ version = "0.1.0"
 [dependencies]
 python = "3.12.*"
 numpy = ">=2.5.4,<3"
+ros-jazzy-ros2run = ">=0.32.13,<0.33"
+ros-jazzy-desktop = ">=0.11.0,<0.12"
+colcon-common-extensions = ">=0.3.0,<0.4"
+setuptools = ">=84.0.0,<85"
 
 [pypi-dependencies]
 mediapipe = ">=1.1.1, <2"
-opencv-python = ">=5.0.0.93, <6"
+opencv-python = ">=5.0.0, <6"
